@@ -70,6 +70,7 @@ nav a.active {
 
 #todos {
   margin: 0 0 1rem 0;
+  outline: 1px solid rgba(0, 0, 0, 0.8);
 }
 
 ul, form {
@@ -78,8 +79,14 @@ ul, form {
 
 .todo {
   padding: 0.15rem;
+
+  outline: 1px solid rgba(54, 133, 185, 0.8);
 }
 
 .todo:hover {
   cursor: pointer;
+}
+
+.hidden{
+  display:none;
 }
